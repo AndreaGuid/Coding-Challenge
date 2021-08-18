@@ -1,0 +1,93 @@
+body{
+  background-image: url('file:///Users/premchristo/Desktop/MaterialeEsercizioLim/background.jpg');
+  background-size: cover;
+  color: white;
+}
+
+section{
+  padding: 0;
+  background: url('file:///Users/premchristo/Desktop/MaterialeEsercizioLim/background.jpg')
+  height:100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box{
+  position: relative;
+  max-width: 600px;
+  padding: 150px;
+  background: rgba(0, 0, 0, .50);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+}
+
+.container{
+  width: 500px;
+  margin: auto;
+}
+
+.logo{
+  width: 100px;
+  margin-left: 40%;
+  margin-right: 35%;
+}
+
+.logo-text{
+  color: lightgreen;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.quadrato{
+  width: 479px;
+  height: 20px;
+  background-color: lightgreen;
+  padding: 10px;
+}
+
+.quadrato-text{
+  margin-left: 2%;
+  margin-right: 4%;
+}
+
+.prenota{
+  font-size: 8px;
+
+}
+
+.quadrato-text{
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.veicolo{
+  display: inline-block;
+}
+
+.indirizzo{
+  display: inline-block;
+}
+
+.barramedia{
+  background-color: orange;
+  border-radius: 7%;
+  margin-left: 0%;
+  height: 15px;
+  width: 200px;
+}
+
+.barralunga{
+  background-color: lightgreen;
+  border-radius: 7%;
+  margin-left: 0%;
+  height: 15px;
+  width: 300px;
+}
+
+.barracorta{
+  background-color: red;
+  border-radius: 7%;
+  margin-left: 0%;
+  height: 15px;
+  width: 100px
+}
